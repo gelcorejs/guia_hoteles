@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.jumbotron{
+    background-color: bisque;
+    color: #333;
+}
+.card-hotel{
+    flex: 1 150px;
+    padding: 2px 0px 2px 5px;
+    height: 160px;
+    margin-top: 10px;
+}
+.p-btn{
+    width: 100%;
+    
+}
+footer{     
+    padding: 10px 0px 0px 0px;
+    background-color: bisque;
+    margin:20px 0px 0px 0px; 
+}
+.r-def{
+    
+}
