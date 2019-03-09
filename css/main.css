@@ -5,6 +5,11 @@ body{
 .jumbotron{
     background-color: bisque;
     color: #333;
+    margin-top: 40px;
+}
+.containner{
+    width: 95%;
+    margin: 0 auto;
 }
 .card-hotel{
     flex: 1 150px;

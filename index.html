@@ -11,13 +11,43 @@
     <title>Hello, world!</title>
   </head>
   <body >
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a href="#" class="navbar-brand">Hoteles</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./about.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Precios</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Terminos y Servicios</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+<div class="jumbotron">
         <h1 class="display-4">Hoteles Paps</h1>
         <p class="lead">El mejor descanzo.</p>
-    </div>
 </div>
    <div class="containner">
+      <!--BReadCrumb-->
+      <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">INICIO</li>
+          </ol>
+      </nav>
+      <!--BReadCrumb-->
        <div class="d-flex">
            <div class="d-flex flex-column">
                <h3>Mini Titulo</h3>
@@ -135,7 +165,7 @@
            </div>
        </div>
    </div><!--Fin del containner general-->
-   <footer class="d-flex">
+   <footer class="d-flex fixed-bottom">
      <div class="row">
         <div class="d-flex flex-column r-def">
             <a class="">Felix 2019</a>
